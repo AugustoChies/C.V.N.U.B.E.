@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e3133e9989ab934db1a67fc97c5cda4, type: 3}
+  m_Name: Scene3
+  m_EditorClassIdentifier: 
+  background: {fileID: 21300000, guid: db03cb34f3cdbd141800c7b59b9b56ad, type: 3}
+  portraitList: []
+  music: {fileID: 0}
+  text:
+  - "Tendo dormido pouco, o ca\xE7ador acorda no meio da noite se sentindo cansado,
+    mas percebe que os animais do celeiro est\xE3o todos acordados e agitados"
+  hasChoice: 1
+  flagDestination:
+    requiredFlag: 
+    destination: {fileID: 0}
+  destination: {fileID: 0}
+  flagsList:
+  - 
+  - 
+  - 
+  optionsText:
+  - Encher os ouvidos com feno e voltar a dormir
+  - Acender uma tocha e verificar arredores
+  - Tentar encontrar a criatura e dar um golpe furtivo nela
+  destinationList:
+  - {fileID: 11400000, guid: 6bfaa5ab0e5bf02449683cc9f32f98d2, type: 2}
+  - {fileID: 11400000, guid: 0cdb7fa8ce25c2b4b821d2aa39091ccb, type: 2}
+  - {fileID: 11400000, guid: 3b75f9f1e65b8344eb282af59fe68720, type: 2}
+  flag: 

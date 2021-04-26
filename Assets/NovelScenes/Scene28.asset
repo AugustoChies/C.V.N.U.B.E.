@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e3133e9989ab934db1a67fc97c5cda4, type: 3}
+  m_Name: Scene28
+  m_EditorClassIdentifier: 
+  background: {fileID: 21300000, guid: 7e4b7557361565c4d8c480c21a5f10c4, type: 3}
+  portraitList:
+  - {fileID: 21300000, guid: 5790334de2df26441ac31af4daa8bcd0, type: 3}
+  music: {fileID: 0}
+  text:
+  - "0Ao chegar na vila, o ca\xE7ador \xE9 abordado por uma camponesa"
+  - "0\u201CBoa tarde, senhor. Pelo que vejo o senhor \xE9 um ca\xE7ador, n\xE3o?
+    A fazenda de meu pai vem sendo atacada por uma criatura misteriosa e imagino
+    que se h\xE1 algu\xE9m que poderia resolver o problema, \xE9 voc\xEA.\u201D"
+  - "0\u201Cn\xE3o temos muito a oferecer sen\xE3o algumas d\xFAzias de moedas e
+    a nossa gratid\xE3o\u201D"
+  hasChoice: 1
+  flagDestination:
+    requiredFlag: 
+    destination: {fileID: 0}
+  destination: {fileID: 0}
+  flagsList:
+  - 
+  - 
+  optionsText:
+  - Aceitar o trabalho
+  - Rejeitar o trabalho
+  destinationList:
+  - {fileID: 11400000, guid: a145960aeca6595489a4c1898b24a2df, type: 2}
+  - {fileID: 11400000, guid: bd6ab45af2df2014581866f1e5511406, type: 2}
+  flag: 

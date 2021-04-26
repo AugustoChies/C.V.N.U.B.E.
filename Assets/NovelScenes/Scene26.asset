@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e3133e9989ab934db1a67fc97c5cda4, type: 3}
+  m_Name: Scene26
+  m_EditorClassIdentifier: 
+  background: {fileID: 21300000, guid: db03cb34f3cdbd141800c7b59b9b56ad, type: 3}
+  portraitList:
+  - {fileID: 21300000, guid: 2b6a034bda1da4c46a61eeed5315229c, type: 3}
+  - {fileID: 21300000, guid: 3c891e87ffb1f4745a138d20ceefe5b4, type: 3}
+  music: {fileID: 0}
+  text:
+  - "0A fera lan\xE7a um grito de agonia que lentamente vai se transformando em um
+    lamento humano."
+  - "1A figura do fazendeiro se apresenta em sua frente com o rosto em l\xE1grimas,
+    agradecendo por tudo, bem como lamentando por seu estado e feitos."
+  hasChoice: 0
+  flagDestination:
+    requiredFlag: 
+    destination: {fileID: 0}
+  destination: {fileID: 11400000, guid: 7277d9d9f7f622645bd15d65f8df30c3, type: 2}
+  flagsList: []
+  optionsText: []
+  destinationList: []
+  flag: 

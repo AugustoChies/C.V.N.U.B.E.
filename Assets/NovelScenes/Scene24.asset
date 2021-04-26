@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e3133e9989ab934db1a67fc97c5cda4, type: 3}
+  m_Name: Scene24
+  m_EditorClassIdentifier: 
+  background: {fileID: 21300000, guid: db03cb34f3cdbd141800c7b59b9b56ad, type: 3}
+  portraitList:
+  - {fileID: 21300000, guid: 7ef5b59a6dabda14d8380ceeea0ed647, type: 3}
+  - {fileID: 21300000, guid: a9c21c28e0c2c0141ae7d3750e5031a7, type: 3}
+  music: {fileID: 0}
+  text:
+  - "0Preparado para o que estava por vir, o ca\xE7ador entra em combate com a fera."
+  - "1Utilizando os movimentos de uma forma calculada, o ca\xE7ador consegue desviar
+    dos golpes da fera aterrorizada pelo fogo e, num r\xE1pido movimento, consegue
+    fazer um corte profundo na perna direita do animal."
+  - "1Antes que o monstro pudesse se recuperar do golpe, o ca\xE7ador consegue golpear
+    tamb\xE9m a perna esquerda do monstro. "
+  - "1O monstro se encontra ca\xEDdo em sua frente com os movimentos debilitados. "
+  hasChoice: 1
+  flagDestination:
+    requiredFlag: 
+    destination: {fileID: 0}
+  destination: {fileID: 0}
+  flagsList:
+  - amuleto
+  - 
+  optionsText:
+  - Colocar o amuleto
+  - Desferir o golpe final
+  destinationList:
+  - {fileID: 11400000, guid: 9faadff8797a5e94f9b04be23818e5cd, type: 2}
+  - {fileID: 11400000, guid: 241a9fd25b9c26c44971b3bc8d634dec, type: 2}
+  flag: 

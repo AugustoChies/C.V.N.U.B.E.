@@ -1,10 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManagerScript : MonoBehaviour
 {
     public SceneList allScenes;
+    public List<string> activeFlags;
 
     //for debug purposes
     public SceneEventScript startingScene;
@@ -26,6 +28,7 @@ public class GameManagerScript : MonoBehaviour
     void Start()
     {
         NewScene(startingScene);
+        activeFlags = new List<string>();
         possibleScenes = new List<SceneEventScript>();
     }
 
@@ -41,6 +44,13 @@ public class GameManagerScript : MonoBehaviour
 
     public void NewScene(SceneEventScript newScene)
     {
+        if(newScene == null)
+        {
+            SceneManager.LoadScene("Fim");
+            return;
+        }
+
+
         Debug.Log("Started scene " + newScene.name);
         currentScene = newScene;
         currentText = 0;
@@ -72,13 +82,24 @@ public class GameManagerScript : MonoBehaviour
     {        
         if(currentText >= currentScene.text.Count)
         {
+            if(currentScene.flag != "")
+            {
+                activeFlags.Add(currentScene.flag);
+            }
             if(currentScene.hasChoice)
             {
                 ActivateButtons();                
             }
             else
-            {
-                NewScene(currentScene.destination);
+            {                
+                if(currentScene.flagDestination.destination != null && CheckFlag(currentScene.flagDestination.requiredFlag))
+                {
+                    NewScene(currentScene.flagDestination.destination);
+                }
+                else
+                {
+                    NewScene(currentScene.destination);
+                }                
             }
             
             return;
@@ -89,6 +110,24 @@ public class GameManagerScript : MonoBehaviour
         currentText++;
     }
 
+    public bool CheckFlag(string flag)
+    {       
+        if (flag != "")
+        {
+            bool alternate = false;
+            for (int i = 0; i < activeFlags.Count; i++)
+            {
+                if (activeFlags[i] == flag)
+                {
+                    alternate = true;
+                    break;
+                }
+            }
+            return alternate;
+        }
+
+        return true;
+    }
 
     public string ChangePortrait(string inputText)
     {
@@ -117,17 +156,19 @@ public class GameManagerScript : MonoBehaviour
     public void ActivateButtons()
     {
         selectionMode = true;
-        List<string> buttontexts = new List<string>(); 
+        List<string> buttontexts = new List<string>();
+        List<string> buttonFlags = new List<string>();
         possibleScenes.Clear();
         for (int i = 0; i < currentScene.destinationList.Count; i++)
         {
-            if(currentScene.destinationList[i] != null)
+            if(currentScene.destinationList[i] != null )
             {
                 possibleScenes.Add(currentScene.destinationList[i]);
                 buttontexts.Add(currentScene.optionsText[i]);
+                buttonFlags.Add(currentScene.flagsList[i]);
             }            
         }
-        storyCanvas.ShowButtons(buttontexts);
+        storyCanvas.ShowButtons(buttontexts,buttonFlags,activeFlags);
     }
 
     public void ButtonOption1()

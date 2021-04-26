@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e3133e9989ab934db1a67fc97c5cda4, type: 3}
+  m_Name: Scene2
+  m_EditorClassIdentifier: 
+  background: {fileID: 21300000, guid: 0da0d4d2bf62bdc44aa17153ed03ff52, type: 3}
+  portraitList:
+  - {fileID: 21300000, guid: 105a983167c21be46b1e341e42e84f97, type: 3}
+  - {fileID: 21300000, guid: 5790334de2df26441ac31af4daa8bcd0, type: 3}
+  - {fileID: 21300000, guid: 8804caa8f2196e044acbde5b4d72b07d, type: 3}
+  music: {fileID: 0}
+  text:
+  - "A camponesa levou o ca\xE7ador para a entrada de um celeiro e pediu para que
+    ele esperasse por seu pai ali. Um tempo depois, um homem magro se aproximou do
+    ca\xE7ador."
+  - "2\u201COl\xE1, minha filha falou que voc\xEA veio exterminar a criatura que
+    ataca a minha fazenda. N\xE3o posso dizer que sei muito sobre ela, mas ela costuma
+    atacar somente de noite, \xE0s vezes por v\xE1rias noites seguidas e depois fica
+    um tempo sem aparecer de novo.\u201D"
+  - "2\u201CIsto j\xE1 acontece a algum tempo, eu n\xE3o me preocupava com isso,
+    a criatura vem, mata alguma de minhas vacas e vai embora, mas seus ataques vem
+    ficando cada vez mais violentos e come\xE7o a temer pela vida de minha filha.\u201D"
+  - "2\u201CComo a criatura costuma atacar as vacas, acho que seria melhor se voc\xEA
+    dormisse no celeiro mesmo, fique a vontade\u201D"
+  - "0O ca\xE7ador se despede do fazendeiro, entra no est\xE1bulo e se prepara para
+    a noite"
+  hasChoice: 0
+  destination: {fileID: 11400000, guid: b9536ffb3e2b08240ad3e2cb009d6ad7, type: 2}
+  optionsText: []
+  destinationList: []

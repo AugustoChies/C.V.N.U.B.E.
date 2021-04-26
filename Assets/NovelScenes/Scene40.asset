@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e3133e9989ab934db1a67fc97c5cda4, type: 3}
+  m_Name: Scene40
+  m_EditorClassIdentifier: 
+  background: {fileID: 21300000, guid: c95737fb6deee664ba56a4b681dc0713, type: 3}
+  portraitList:
+  - {fileID: 21300000, guid: 9131f279abf2844468b5aa7273c67032, type: 3}
+  music: {fileID: 0}
+  text:
+  - "0Depois de servir uma cerveja a voc\xEA, o taberneiro se aproxima como se fosse
+    contar um segredo:"
+  - "0\u201CJ\xE1 moro nesse vilarejo faz um tempo, e esses ataques de monstro s\xF3
+    come\xE7aram a acontecer depois que o fazendeiro se mudou para c\xE1. Como naquele
+    tempo os ataques foram menores, ningu\xE9m associou os dois eventos.\u201D"
+  - "0\u201Ccomo o fazendeiro \xE9 uma pessoa gentil, nunca falei nada, mas os ataques
+    vem tomando umas propor\xE7\xF5es assustadoras recentemente e voc\xEA parece
+    ser o \xFAnico capaz de ajud\xE1-lo\u201D."
+  - "0\u201CBoa sorte\u201D"
+  hasChoice: 1
+  flagDestination:
+    requiredFlag: 
+    destination: {fileID: 0}
+  destination: {fileID: 0}
+  flagsList:
+  - 
+  - 
+  optionsText:
+  - Ir para a fazenda esperar a noite
+  - Visitar a curandeira
+  destinationList:
+  - {fileID: 11400000, guid: b4614da85a4f6804ca5b99cda69e756f, type: 2}
+  - {fileID: 11400000, guid: 5128b9f3f16896949a59ce53b6695eec, type: 2}
+  flag: 

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e3133e9989ab934db1a67fc97c5cda4, type: 3}
+  m_Name: Scene4
+  m_EditorClassIdentifier: 
+  background: {fileID: 21300000, guid: db03cb34f3cdbd141800c7b59b9b56ad, type: 3}
+  portraitList: []
+  music: {fileID: 0}
+  text:
+  - "A tocha ca\xEDda incendeia um mont\xEDculo de palha e o fogo logo se torna num
+    inc\xEAndio que toma o est\xE1bulo inteiro. A besta rapidamente foge e voc\xEA
+    a perde de vista. "
+  - "O calor, a exaust\xE3o e a dor do ca\xE7ador fazem com que ele consiga apenas
+    se afastar o suficiente do inc\xEAndio antes de desmaiar. "
+  hasChoice: 0
+  destination: {fileID: 11400000, guid: 19fd57133d71fab4fa58a5b78f75de7f, type: 2}
+  optionsText: []
+  destinationList: []

@@ -39,11 +39,30 @@ public class CanvasController : MonoBehaviour
         dialogue.text = newText;
     }
 
-    public void ShowButtons(List<string> optionsText)
+    public bool CheckFlag(string flag,List <string> flagList)
+    {
+        if (flag != "")
+        {
+            bool alternate = false;
+            for (int i = 0; i < flagList.Count; i++)
+            {
+                if (flagList[i] == flag)
+                {
+                    alternate = true;
+                    break;
+                }
+            }
+            return alternate;
+        }
+
+        return true;
+    }
+
+    public void ShowButtons(List<string> optionsText, List<string> flags, List<string> activeFlags)
     {
         for (int i = 0; i < optionsText.Count; i++)
         {
-            buttons[i].SetActive(true);
+            buttons[i].SetActive(CheckFlag(flags[i],activeFlags));
             buttons[i].GetComponentInChildren<TextMeshProUGUI>().text = optionsText[i];            
         }
     }

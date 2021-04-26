@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e3133e9989ab934db1a67fc97c5cda4, type: 3}
+  m_Name: Scene37
+  m_EditorClassIdentifier: 
+  background: {fileID: 21300000, guid: db03cb34f3cdbd141800c7b59b9b56ad, type: 3}
+  portraitList:
+  - {fileID: 21300000, guid: 8e7f39a5855c6f64eae87857b619b03f, type: 3}
+  - {fileID: 21300000, guid: 105a983167c21be46b1e341e42e84f97, type: 3}
+  music: {fileID: 0}
+  text:
+  - "0Tomada de um sobressalto, a criatura se mant\xE9m est\xE1tica por algum tempo,
+    com sua sombra adentrando a entrada do celeiro"
+  - "0Como se tomada por diversas indecis\xF5es, temer\xE1ria, ela foge rapidamente
+    noite afora"
+  - "1Mantendo-se acordado durante a noite, o ca\xE7ador espera o dia clarear para
+    analisar as suas poss\xEDveis escolhas"
+  hasChoice: 0
+  flagDestination:
+    requiredFlag: 
+    destination: {fileID: 0}
+  destination: {fileID: 11400000, guid: 3df3db589a0c1e84c8811777724e3584, type: 2}
+  flagsList: []
+  optionsText: []
+  destinationList: []
+  flag: 

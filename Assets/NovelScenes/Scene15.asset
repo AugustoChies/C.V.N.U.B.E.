@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e3133e9989ab934db1a67fc97c5cda4, type: 3}
+  m_Name: Scene15
+  m_EditorClassIdentifier: 
+  background: {fileID: 21300000, guid: 19c8665539e29a74a8871815414a9918, type: 3}
+  portraitList:
+  - {fileID: 21300000, guid: a9be6eb4ceba57643813b8a681520787, type: 3}
+  music: {fileID: 0}
+  text:
+  - "0\u201CAproxime-se de mim\u201D"
+  - "0A curandeira morde o seu pr\xF3prio dedo e, quando o sangue come\xE7a a escorrer,
+    ela passa o dedo na testa do ca\xE7ador, pronunciando algumas palavras inintelig\xEDveis"
+  - "0O ca\xE7ador vai entrando em um transe e acaba desmaiando"
+  hasChoice: 0
+  flagDestination:
+    requiredFlag: 
+    destination: {fileID: 0}
+  destination: {fileID: 11400000, guid: 727ea2919d4f24447b983426ff06b93f, type: 2}
+  flagsList: []
+  optionsText: []
+  destinationList: []
+  flag: 

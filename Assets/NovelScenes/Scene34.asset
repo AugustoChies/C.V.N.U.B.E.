@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e3133e9989ab934db1a67fc97c5cda4, type: 3}
+  m_Name: Scene34
+  m_EditorClassIdentifier: 
+  background: {fileID: 21300000, guid: 498a41cb0b970eb4ca6d7b8bb625accd, type: 3}
+  portraitList:
+  - {fileID: 21300000, guid: 7ef5b59a6dabda14d8380ceeea0ed647, type: 3}
+  - {fileID: 21300000, guid: a9c21c28e0c2c0141ae7d3750e5031a7, type: 3}
+  music: {fileID: 0}
+  text:
+  - "0O ca\xE7ador sai em busca da criatura, pondo-se de frente a frente com ela."
+  - "0A criatura se move agilmente, mas em um gesto r\xE1pido o ca\xE7ador consegue
+    acertar a barriga do monstro com a tocha. "
+  - "1Quando a criatura urra de dor, o ca\xE7ador percebe que est\xE1 enfrentando
+    um lobisomem."
+  - "1Aproveitando-se da surpresa do ca\xE7ador, a besta consegue atingir o seu bra\xE7o
+    com as garras fazendo com que o ca\xE7ador derrube a tocha."
+  hasChoice: 0
+  flagDestination:
+    requiredFlag: 
+    destination: {fileID: 0}
+  destination: {fileID: 11400000, guid: 9970f99dd6787e54a92e50a9af8bc9e8, type: 2}
+  flagsList: []
+  optionsText: []
+  destinationList: []
+  flag: 

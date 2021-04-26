@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e3133e9989ab934db1a67fc97c5cda4, type: 3}
+  m_Name: Scene7
+  m_EditorClassIdentifier: 
+  background: {fileID: 21300000, guid: c95737fb6deee664ba56a4b681dc0713, type: 3}
+  portraitList:
+  - {fileID: 21300000, guid: 9131f279abf2844468b5aa7273c67032, type: 3}
+  music: {fileID: 0}
+  text:
+  - "Depois de tomar algumas cervejas, o ca\xE7ador vai dormir. "
+  - "0O ca\xE7ador acaba dormindo at\xE9 tarde e no dia seguinte o taberneiro fala
+    sobre o ocorrido na noite anterior "
+  - "0\u201CA fazenda foi atacada na noite anterior, mas n\xE3o s\xF3 ela, como tamb\xE9m
+    a casa do fazendeiro. Ele est\xE1 desaparecido e a filha foi encontrada morta.\u201D "
+  - "0\u201CO povo daqui sabe que n\xE3o foi voc\xEA quem fez isso, mas acredita
+    que isso poderia ter sido evitado caso voc\xEA ajudasse. Acho que voc\xEA deveria
+    ir atr\xE1s do monstro.\u201C "
+  - "0\u201CCaso volte aqui mais tarde, talvez eu tenha algumas informa\xE7\xF5es
+    para compartilhar com voc\xEA, ou voc\xEA tamb\xE9m poderia falar com a curandeira
+    da vila, ela pode te ajudar\u201D "
+  hasChoice: 1
+  flagDestination:
+    requiredFlag: 
+    destination: {fileID: 0}
+  destination: {fileID: 0}
+  flagsList:
+  - 
+  - 
+  - 
+  optionsText:
+  - Falar com o taberneiro
+  - Falar com a curandeira
+  - Buscar o rastro do monstro
+  destinationList:
+  - {fileID: 11400000, guid: 603e0507ff5aa5440bf9b27ef2fe7313, type: 2}
+  - {fileID: 11400000, guid: 5128b9f3f16896949a59ce53b6695eec, type: 2}
+  - {fileID: 11400000, guid: ee00aa0200eb0094da55f5b3dba07a32, type: 2}
+  flag: 

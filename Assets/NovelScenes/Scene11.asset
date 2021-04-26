@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e3133e9989ab934db1a67fc97c5cda4, type: 3}
+  m_Name: Scene11
+  m_EditorClassIdentifier: 
+  background: {fileID: 21300000, guid: 0c193961b2eff5845b170a2763a71160, type: 3}
+  portraitList:
+  - {fileID: 21300000, guid: 105a983167c21be46b1e341e42e84f97, type: 3}
+  music: {fileID: 0}
+  text:
+  - "0Conforme o ca\xE7ador vai adentrando a floresta, as pegadas da besta v\xE3o
+    ficando menores e, quando elas come\xE7am a se parecer com as de um ser humano,
+    j\xE1 est\xE3o quase impercept\xEDveis."
+  - "0O ca\xE7ador se abaixa para analisar melhor as pegadas em busca de uma informa\xE7\xE3o. "
+  - "\u201CDesculpa\u201D "
+  hasChoice: 0
+  flagDestination:
+    requiredFlag: 
+    destination: {fileID: 0}
+  destination: {fileID: 11400000, guid: adbcb70647a8ab24c80ca96632893379, type: 2}
+  optionsText: []
+  destinationList: []
+  flag: 

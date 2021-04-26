@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e3133e9989ab934db1a67fc97c5cda4, type: 3}
+  m_Name: Scene20
+  m_EditorClassIdentifier: 
+  background: {fileID: 21300000, guid: db03cb34f3cdbd141800c7b59b9b56ad, type: 3}
+  portraitList: []
+  music: {fileID: 0}
+  text:
+  - "Sem acender nenhuma fonte de fogo, o ca\xE7ador retorna ao est\xE1bulo e fica
+    \xE0 espreita esperando a fera."
+  - "Depois de ouvir uns grunhidos, o ca\xE7ador consegue identificar no escuro a
+    silhueta da fera"
+  hasChoice: 1
+  flagDestination:
+    requiredFlag: 
+    destination: {fileID: 0}
+  destination: {fileID: 0}
+  flagsList:
+  - amuleto
+  - amuleto
+  - 
+  optionsText:
+  - Atirar na fera com as balas de prata
+  - Aproximar-se pelas costas para colocar o amuleto
+  - Posicionar-se entre a fera e a entrada e acender uma tocha
+  destinationList:
+  - {fileID: 11400000, guid: f3b5529a672509e46be19812188accf3, type: 2}
+  - {fileID: 11400000, guid: 12ea6fddedde1ec428abdf25aeb6ff66, type: 2}
+  - {fileID: 11400000, guid: 765e9ed63668c114fa1c1cd822a49298, type: 2}
+  flag: 

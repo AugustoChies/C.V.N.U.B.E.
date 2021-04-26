@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e3133e9989ab934db1a67fc97c5cda4, type: 3}
+  m_Name: Scene39
+  m_EditorClassIdentifier: 
+  background: {fileID: 21300000, guid: 19c8665539e29a74a8871815414a9918, type: 3}
+  portraitList:
+  - {fileID: 21300000, guid: 1227ff5fa980e0e4781fc8886062fc82, type: 3}
+  - {fileID: 21300000, guid: 63c2270985cc9ad4d81e04fec7d9bee1, type: 3}
+  music: {fileID: 0}
+  text:
+  - "0\u201COs lobisomens costumam ter medo de fogo e o ideal para mat\xE1-los s\xE3o
+    balas de prata, mas eu venho desenvolvendo uma forma de acabar com a maldi\xE7\xE3o.\u201D"
+  - "1\u201CUm amuleto que, se posto no lobisomem enquanto estivesse com sua forma
+    de fera, poderia transform\xE1-lo de volta ao normal. Pegue isto em todo o caso\u201D"
+  hasChoice: 0
+  flagDestination:
+    requiredFlag: 
+    destination: {fileID: 0}
+  destination: {fileID: 11400000, guid: efbddfc7e2577ef42bbe8f42293026af, type: 2}
+  flagsList: []
+  optionsText: []
+  destinationList: []
+  flag: amuleto

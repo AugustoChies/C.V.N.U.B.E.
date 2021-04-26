@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e3133e9989ab934db1a67fc97c5cda4, type: 3}
+  m_Name: Scene12
+  m_EditorClassIdentifier: 
+  background: {fileID: 21300000, guid: 0c193961b2eff5845b170a2763a71160, type: 3}
+  portraitList:
+  - {fileID: 21300000, guid: 7ef5b59a6dabda14d8380ceeea0ed647, type: 3}
+  - {fileID: 21300000, guid: 501b3cba4748a374dbf7efc654a561af, type: 3}
+  - {fileID: 21300000, guid: 0dfdbec32b6e231499c759f025f47a5a, type: 3}
+  music: {fileID: 0}
+  text:
+  - "0J\xE1 \xE9 noite quando o ca\xE7ador acorda e, percebendo a escurid\xE3o, busca
+    acender uma tocha"
+  - "1Ao estender a m\xE3o para iluminar os arredores, o monstro surge da escurid\xE3o
+    e morde o ca\xE7ador "
+  - "1Com sua m\xE3o livre, o ca\xE7ador empunha a adaga e crava ela no cr\xE2nio
+    do lobisomem."
+  - "2A fera cai morta, mas voc\xEA foi mordido e, antes que possa lamentar a sua
+    sina, j\xE1 come\xE7a a ver os sinais de sua transforma\xE7\xE3o em lobisomem. "
+  hasChoice: 0
+  flagDestination:
+    requiredFlag: 
+    destination: {fileID: 0}
+  destination: {fileID: 0}
+  optionsText: []
+  destinationList: []
+  flag: 
